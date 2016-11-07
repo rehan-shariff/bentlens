@@ -3,10 +3,10 @@ Bored? Try Bent Lens.
 
 Explore the world through a contour lens. Bent Lens is an app that turns what your camera sees into outlines. Capture fun new photos and share them from within the app. Customize the lines and background colors.
 
-![Bent Lens screenshot 1](screenshots/screenshot1.png)
-![Bent Lens screenshot 2](screenshots/screenshot2.png)
-![Bent Lens screenshot 3](sreenshots/screenshot3.png)
-![Bent Lens screenshot 4](sreenshots/screenshot4.png)
+<img src="screenshots/screenshot1.png" width="300">
+<img src="screenshots/screenshot2.png" width="300">
+<img src="screenshots/screenshot3.png" width="300">
+<img src="screenshots/screenshot4.png" width="300">
 
 Get Bent Lens on the [App Store](https://itunes.apple.com/us/app/bent-lens/id1090747884?mt=8)
 
@@ -34,6 +34,7 @@ open BentLens.xcworkspace
 
 ## Pull Requests
 Pull requests are welcome! Follow these guidelines:
+
 1. The [Apple Coding standards](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 2. Reference space between class name and * when defining reference objects
 3. Remove spaces between if statements and the opening '('
