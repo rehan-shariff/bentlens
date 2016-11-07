@@ -3,10 +3,10 @@ Bored? Try Bent Lens.
 
 Explore the world through a contour lens. Bent Lens is an app that turns what your camera sees into outlines. Capture fun new photos and share them from within the app. Customize the lines and background colors.
 
-<img src="screenshots/screenshot1.png" width="300">
-<img src="screenshots/screenshot2.png" width="300">
-<img src="screenshots/screenshot3.png" width="300">
-<img src="screenshots/screenshot4.png" width="300">
+<img src="screenshots/screenshot1.png" width="200">
+<img src="screenshots/screenshot2.png" width="200">
+<img src="screenshots/screenshot3.png" width="200">
+<img src="screenshots/screenshot4.png" width="200">
 
 Get Bent Lens on the [App Store](https://itunes.apple.com/us/app/bent-lens/id1090747884?mt=8)
 
@@ -36,15 +36,14 @@ open BentLens.xcworkspace
 Pull requests are welcome! Follow these guidelines:
 
 1. The [Apple Coding standards](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
-2. Reference space between class name and * when defining reference objects
-3. Remove spaces between if statements and the opening '('
+2. Remove space between class name and * when defining reference objects
+3. Remove space between if/else statements and the opening '('
 
-## Author
+## License
 Rehan Shariff (rehan.shariff@stackhall.com), Stackhall Learning Services, LLC.
 
 Some portions of this code is copyrighted by other authors (Michael Waterfall, Ryota Hayashi, Eduard Feicho, and Alexander Shishkov). Their code is licensed under the MIT or Apache licenses. All such files have the original copyright notice.
 
-## License
 The code for Bent Lens is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
 
 ## EULA
