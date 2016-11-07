@@ -40,7 +40,7 @@ Pull requests are welcome! Follow these guidelines:
 3. Remove space between if/else statements and the opening '('
 
 ## License
-Rehan Shariff (rehan.shariff@stackhall.com), Stackhall Learning Services, LLC.
+Author: Rehan Shariff (rehan.shariff@stackhall.com), Stackhall Learning Services, LLC.
 
 Some portions of this code is copyrighted by other authors (Michael Waterfall, Ryota Hayashi, Eduard Feicho, and Alexander Shishkov). Their code is licensed under the MIT or Apache licenses. All such files have the original copyright notice.
 
