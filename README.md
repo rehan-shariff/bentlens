@@ -42,6 +42,8 @@ Pull requests are welcome! Follow these guidelines:
 ## Author
 Rehan Shariff (rehan.shariff@stackhall.com), Stackhall Learning Services, LLC.
 
+Some portions of this code is copyrighted by other authors (Michael Waterfall, Ryota Hayashi, Eduard Feicho, and Alexander Shishkov). Their code is licensed under the MIT or Apache licenses. All such files have the original copyright notice.
+
 ## License
 The code for Bent Lens is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
 
