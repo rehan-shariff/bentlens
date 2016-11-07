@@ -1,0 +1,29 @@
+PODS:
+  - Color-Picker-for-iOS (2.0.2)
+  - DACircularProgress (2.3.1)
+  - MBProgressHUD (0.9.2)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - PagingMenuController (0.10.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - Color-Picker-for-iOS
+  - MWPhotoBrowser
+  - PagingMenuController
+
+SPEC CHECKSUMS:
+  Color-Picker-for-iOS: 4980589b3e3cfe7198f227dd50be9adb02d8bc0b
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  PagingMenuController: febfbf42fa015ef1378626e57b63fc8d7a268485
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: d8fed600253254c169ad1894be2791220a1f9bb9
+
+COCOAPODS: 1.0.0

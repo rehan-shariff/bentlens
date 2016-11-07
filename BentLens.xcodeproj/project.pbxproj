@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EB83B2CA2E6D745105F9B7F /* Pods_BentLens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484791411007DCE1F4B2A9AF /* Pods_BentLens.framework */; };
+		72561DFE1CE6D43B00A73C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72561DFD1CE6D43B00A73C17 /* Assets.xcassets */; };
+		72561E041CE7BAE200A73C17 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72561E031CE7BAE200A73C17 /* libpng.a */; };
+		72561E0D1CF1415800A73C17 /* GalleryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72561E0C1CF1415800A73C17 /* GalleryManager.m */; };
+		725711CA1C587FFA00B39D3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 725711C91C587FFA00B39D3A /* main.m */; };
+		725711CD1C587FFA00B39D3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 725711CC1C587FFA00B39D3A /* AppDelegate.m */; };
+		725711D01C587FFA00B39D3A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 725711CF1C587FFA00B39D3A /* ViewController.mm */; };
+		725711D31C587FFA00B39D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725711D11C587FFA00B39D3A /* Main.storyboard */; };
+		725711E01C58805100B39D3A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711DF1C58805100B39D3A /* opencv2.framework */; };
+		725711E91C5882E000B39D3A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711E11C5882E000B39D3A /* Accelerate.framework */; };
+		725711EA1C5882E000B39D3A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711E21C5882E000B39D3A /* AssetsLibrary.framework */; };
+		725711EB1C5882E000B39D3A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711E31C5882E000B39D3A /* AVFoundation.framework */; };
+		725711EC1C5882E000B39D3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711E41C5882E000B39D3A /* CoreGraphics.framework */; };
+		725711ED1C5882E000B39D3A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711E51C5882E000B39D3A /* CoreImage.framework */; };
+		725711EE1C5882E000B39D3A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711E61C5882E000B39D3A /* CoreMedia.framework */; };
+		725711EF1C5882E000B39D3A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711E71C5882E000B39D3A /* CoreVideo.framework */; };
+		725711F01C5882E000B39D3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725711E81C5882E000B39D3A /* QuartzCore.framework */; };
+		725711F21C790F4900B39D3A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725711F11C790F4900B39D3A /* Launch Screen.storyboard */; };
+		7258A6981DCFD8A500F77AE4 /* ColorManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7258A6971DCFD8A500F77AE4 /* ColorManager.mm */; };
+		726A41511CFA432400B2FEB8 /* HRSampleColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726A41501CFA432400B2FEB8 /* HRSampleColorPickerViewController.m */; };
+		7281BB381CF7C5AF00EED162 /* LinesAndBackgroundColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7281BB371CF7C5AF00EED162 /* LinesAndBackgroundColorPickerViewController.swift */; };
+		72E840E21D08E6BE00C1603C /* VideoCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72E840E11D08E6BE00C1603C /* VideoCamera.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		484791411007DCE1F4B2A9AF /* Pods_BentLens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BentLens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72561DFD1CE6D43B00A73C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72561E011CE7BAAA00A73C17 /* libpng */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libpng; path = BentLens/libpng; sourceTree = "<group>"; };
+		72561E031CE7BAE200A73C17 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = BentLens/libpng/lib/libpng.a; sourceTree = "<group>"; };
+		72561E0B1CF1415800A73C17 /* GalleryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryManager.h; sourceTree = "<group>"; };
+		72561E0C1CF1415800A73C17 /* GalleryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryManager.m; sourceTree = "<group>"; };
+		725711C51C587FFA00B39D3A /* BentLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BentLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		725711C91C587FFA00B39D3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		725711CB1C587FFA00B39D3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		725711CC1C587FFA00B39D3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		725711CE1C587FFA00B39D3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		725711CF1C587FFA00B39D3A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		725711D21C587FFA00B39D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		725711D91C587FFA00B39D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725711DF1C58805100B39D3A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		725711E11C5882E000B39D3A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		725711E21C5882E000B39D3A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		725711E31C5882E000B39D3A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		725711E41C5882E000B39D3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		725711E51C5882E000B39D3A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		725711E61C5882E000B39D3A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		725711E71C5882E000B39D3A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		725711E81C5882E000B39D3A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		725711F11C790F4900B39D3A /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7258A6961DCFD8A500F77AE4 /* ColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorManager.h; sourceTree = "<group>"; };
+		7258A6971DCFD8A500F77AE4 /* ColorManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColorManager.mm; sourceTree = "<group>"; };
+		726A414F1CFA432400B2FEB8 /* HRSampleColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRSampleColorPickerViewController.h; sourceTree = "<group>"; };
+		726A41501CFA432400B2FEB8 /* HRSampleColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRSampleColorPickerViewController.m; sourceTree = "<group>"; };
+		7281BB361CF7C5AE00EED162 /* BentLens-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BentLens-Bridging-Header.h"; sourceTree = "<group>"; };
+		7281BB371CF7C5AF00EED162 /* LinesAndBackgroundColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinesAndBackgroundColorPickerViewController.swift; sourceTree = "<group>"; };
+		72E840E01D08E6BE00C1603C /* VideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCamera.h; sourceTree = "<group>"; };
+		72E840E11D08E6BE00C1603C /* VideoCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoCamera.mm; sourceTree = "<group>"; };
+		C62F233A2AB2F32DEBC0B0BA /* libPods-BentLensUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BentLensUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2522C6E8F543F6F7DC81316 /* Pods-BentLens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BentLens.release.xcconfig"; path = "Pods/Target Support Files/Pods-BentLens/Pods-BentLens.release.xcconfig"; sourceTree = "<group>"; };
+		FEAA50C419FE546CD2DCC8CE /* Pods-BentLens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BentLens.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BentLens/Pods-BentLens.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725711C21C587FFA00B39D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725711E91C5882E000B39D3A /* Accelerate.framework in Frameworks */,
+				725711EA1C5882E000B39D3A /* AssetsLibrary.framework in Frameworks */,
+				725711EB1C5882E000B39D3A /* AVFoundation.framework in Frameworks */,
+				725711EC1C5882E000B39D3A /* CoreGraphics.framework in Frameworks */,
+				725711ED1C5882E000B39D3A /* CoreImage.framework in Frameworks */,
+				725711EE1C5882E000B39D3A /* CoreMedia.framework in Frameworks */,
+				725711EF1C5882E000B39D3A /* CoreVideo.framework in Frameworks */,
+				725711F01C5882E000B39D3A /* QuartzCore.framework in Frameworks */,
+				725711E01C58805100B39D3A /* opencv2.framework in Frameworks */,
+				72561E041CE7BAE200A73C17 /* libpng.a in Frameworks */,
+				4EB83B2CA2E6D745105F9B7F /* Pods_BentLens.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A378DFE95660C8467C2E038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEAA50C419FE546CD2DCC8CE /* Pods-BentLens.debug.xcconfig */,
+				F2522C6E8F543F6F7DC81316 /* Pods-BentLens.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		629F1EF0705CB0183A716A1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72561E031CE7BAE200A73C17 /* libpng.a */,
+				C62F233A2AB2F32DEBC0B0BA /* libPods-BentLensUITests.a */,
+				484791411007DCE1F4B2A9AF /* Pods_BentLens.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		725711BC1C587FFA00B39D3A = {
+			isa = PBXGroup;
+			children = (
+				725711E11C5882E000B39D3A /* Accelerate.framework */,
+				725711E21C5882E000B39D3A /* AssetsLibrary.framework */,
+				725711E31C5882E000B39D3A /* AVFoundation.framework */,
+				725711E41C5882E000B39D3A /* CoreGraphics.framework */,
+				725711E51C5882E000B39D3A /* CoreImage.framework */,
+				725711E61C5882E000B39D3A /* CoreMedia.framework */,
+				725711E71C5882E000B39D3A /* CoreVideo.framework */,
+				725711E81C5882E000B39D3A /* QuartzCore.framework */,
+				725711DF1C58805100B39D3A /* opencv2.framework */,
+				725711C71C587FFA00B39D3A /* BentLens */,
+				725711C61C587FFA00B39D3A /* Products */,
+				3A378DFE95660C8467C2E038 /* Pods */,
+				629F1EF0705CB0183A716A1B /* Frameworks */,
+				72561E011CE7BAAA00A73C17 /* libpng */,
+			);
+			sourceTree = "<group>";
+		};
+		725711C61C587FFA00B39D3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725711C51C587FFA00B39D3A /* BentLens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725711C71C587FFA00B39D3A /* BentLens */ = {
+			isa = PBXGroup;
+			children = (
+				725711CB1C587FFA00B39D3A /* AppDelegate.h */,
+				725711CC1C587FFA00B39D3A /* AppDelegate.m */,
+				7281BB361CF7C5AE00EED162 /* BentLens-Bridging-Header.h */,
+				72561E0B1CF1415800A73C17 /* GalleryManager.h */,
+				72561E0C1CF1415800A73C17 /* GalleryManager.m */,
+				726A414F1CFA432400B2FEB8 /* HRSampleColorPickerViewController.h */,
+				726A41501CFA432400B2FEB8 /* HRSampleColorPickerViewController.m */,
+				7281BB371CF7C5AF00EED162 /* LinesAndBackgroundColorPickerViewController.swift */,
+				725711CE1C587FFA00B39D3A /* ViewController.h */,
+				725711CF1C587FFA00B39D3A /* ViewController.mm */,
+				7258A6961DCFD8A500F77AE4 /* ColorManager.h */,
+				7258A6971DCFD8A500F77AE4 /* ColorManager.mm */,
+				72E840E01D08E6BE00C1603C /* VideoCamera.h */,
+				72E840E11D08E6BE00C1603C /* VideoCamera.mm */,
+				725711D11C587FFA00B39D3A /* Main.storyboard */,
+				725711F11C790F4900B39D3A /* Launch Screen.storyboard */,
+				72561DFD1CE6D43B00A73C17 /* Assets.xcassets */,
+				725711D91C587FFA00B39D3A /* Info.plist */,
+				725711C81C587FFA00B39D3A /* Supporting Files */,
+			);
+			path = BentLens;
+			sourceTree = "<group>";
+		};
+		725711C81C587FFA00B39D3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				725711C91C587FFA00B39D3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725711C41C587FFA00B39D3A /* BentLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725711DC1C587FFA00B39D3A /* Build configuration list for PBXNativeTarget "BentLens" */;
+			buildPhases = (
+				4E3904375DF9905BD851A5E3 /* 📦 Check Pods Manifest.lock */,
+				725711C11C587FFA00B39D3A /* Sources */,
+				725711C21C587FFA00B39D3A /* Frameworks */,
+				725711C31C587FFA00B39D3A /* Resources */,
+				1342782CD59C7E935BD83275 /* 📦 Embed Pods Frameworks */,
+				508C24D3EB5BCA8BD67BED9A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BentLens;
+			productName = BentLens;
+			productReference = 725711C51C587FFA00B39D3A /* BentLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725711BD1C587FFA00B39D3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = StackHall;
+				TargetAttributes = {
+					725711C41C587FFA00B39D3A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WPW9Y26K3E;
+					};
+				};
+			};
+			buildConfigurationList = 725711C01C587FFA00B39D3A /* Build configuration list for PBXProject "BentLens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725711BC1C587FFA00B39D3A;
+			productRefGroup = 725711C61C587FFA00B39D3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725711C41C587FFA00B39D3A /* BentLens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725711C31C587FFA00B39D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725711F21C790F4900B39D3A /* Launch Screen.storyboard in Resources */,
+				72561DFE1CE6D43B00A73C17 /* Assets.xcassets in Resources */,
+				725711D31C587FFA00B39D3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1342782CD59C7E935BD83275 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BentLens/Pods-BentLens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E3904375DF9905BD851A5E3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		508C24D3EB5BCA8BD67BED9A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BentLens/Pods-BentLens-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725711C11C587FFA00B39D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725711D01C587FFA00B39D3A /* ViewController.mm in Sources */,
+				7281BB381CF7C5AF00EED162 /* LinesAndBackgroundColorPickerViewController.swift in Sources */,
+				72E840E21D08E6BE00C1603C /* VideoCamera.mm in Sources */,
+				72561E0D1CF1415800A73C17 /* GalleryManager.m in Sources */,
+				725711CD1C587FFA00B39D3A /* AppDelegate.m in Sources */,
+				7258A6981DCFD8A500F77AE4 /* ColorManager.mm in Sources */,
+				726A41511CFA432400B2FEB8 /* HRSampleColorPickerViewController.m in Sources */,
+				725711CA1C587FFA00B39D3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		725711D11C587FFA00B39D3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725711D21C587FFA00B39D3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		725711DA1C587FFA00B39D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stackhall Learning Services LLC (WPW9Y26K3E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stackhall Learning Services LLC (WPW9Y26K3E)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = "$(USER)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d52019ca-c167-435e-af26-771aadfbb3a3";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		725711DB1C587FFA00B39D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stackhall Learning Services LLC (WPW9Y26K3E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stackhall Learning Services LLC (WPW9Y26K3E)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = "$(USER)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d52019ca-c167-435e-af26-771aadfbb3a3";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725711DD1C587FFA00B39D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAA50C419FE546CD2DCC8CE /* Pods-BentLens.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stackhall Learning Services LLC (WPW9Y26K3E)";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = BentLens/Info.plist;
+				INSTALL_OWNER = "$(USER)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BentLens/libpng/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackhall.bent-lens";
+				PRODUCT_NAME = BentLens;
+				PROVISIONING_PROFILE = "d52019ca-c167-435e-af26-771aadfbb3a3";
+				SWIFT_OBJC_BRIDGING_HEADER = "BentLens/BentLens-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		725711DE1C587FFA00B39D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2522C6E8F543F6F7DC81316 /* Pods-BentLens.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = BentLens/Info.plist;
+				INSTALL_OWNER = "$(USER)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BentLens/libpng/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackhall.bent-lens";
+				PRODUCT_NAME = BentLens;
+				PROVISIONING_PROFILE = "d52019ca-c167-435e-af26-771aadfbb3a3";
+				SWIFT_OBJC_BRIDGING_HEADER = "BentLens/BentLens-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725711C01C587FFA00B39D3A /* Build configuration list for PBXProject "BentLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725711DA1C587FFA00B39D3A /* Debug */,
+				725711DB1C587FFA00B39D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725711DC1C587FFA00B39D3A /* Build configuration list for PBXNativeTarget "BentLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725711DD1C587FFA00B39D3A /* Debug */,
+				725711DE1C587FFA00B39D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 725711BD1C587FFA00B39D3A /* Project object */;
+}
