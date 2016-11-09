@@ -24,13 +24,11 @@ git clone https://github.com/stackhall/bentlens.git
 cd bentlens
 pod install
 ```
-(4) Download [OpenCV for iOS](http://sourceforge.net/projects/opencvlibrary/files/opencv-ios/3.1.0/opencv2.framework.zip/download) and extract in project directory
-
-(5) Open workspace in XCode:
+(4) Open workspace in XCode:
 ```
 open BentLens.xcworkspace
 ```
-(6) Build the BentLens scheme
+(5) Build the BentLens scheme
 
 ## Pull Requests
 Pull requests are welcome! Follow these guidelines:
