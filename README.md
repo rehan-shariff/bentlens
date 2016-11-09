@@ -1,3 +1,5 @@
+https://travis-ci.org/stackhall/bentlens.svg?branch=master
+
 # Bent Lens
 Bored? Try Bent Lens.
 
