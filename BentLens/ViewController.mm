@@ -173,7 +173,7 @@ using namespace cv;
 }
 - (IBAction)snapViewPan:(UIPanGestureRecognizer*)sender {
     CGPoint translation = [sender translationInView:self.view];
-    self.cannyValue = self.cannyValue + translation.y/5;
+    self.cannyValue = self.cannyValue + translation.X/5;
     if(self.cannyValue > 100) {
         self.cannyValue = 100;
     }
