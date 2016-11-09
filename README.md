@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/stackhall/bentlens.svg?branch=master)](https://travis-ci.org/stackhall/bentlens)
+
 # Bent Lens
 Bored? Try Bent Lens.
 
