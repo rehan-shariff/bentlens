@@ -1,2 +1,7 @@
 language: objective-c
+before_install:
+- brew update && brew install git-lfs
+- git lfs install
+before_script: 
+- git lfs pull
 script: xcodebuild -workspace BentLens.xcworkspace -scheme BentLens ONLY_ACTIVE_ARCH=YES CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
