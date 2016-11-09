@@ -1,2 +1,2 @@
 language: objective-c
-xcodebuild -workspace BentLens.xcworkspace -scheme BentLens
+script: xcodebuild -workspace BentLens.xcworkspace -scheme BentLens
